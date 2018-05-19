@@ -22,12 +22,27 @@ html, body {
     position: relative;
 }
 
-.main .main__nav {
+.main__top-bar {
     position: absolute;
     top: 0;
-    right: 0;
-    width: auto;
-    z-index: 200;
+    left: 0;
+    width: 100%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+}
+
+.main__header {
+    text-decoration: none;
+}
+
+.main .main__title {
+    font-size: 1rem;
+    margin: 30px;
+    color: white;
+}
+
+.main .main__nav {
 }
 
 .main .main__wrapper {
@@ -41,12 +56,7 @@ html, body {
 }
 
 .main .main__logo {
-    box-shadow: rgba(58,20,68,0.31);
-}
-
-.main .main__title {
-    font-size: 4.5rem;
-    margin: 0;
+    margin-bottom: 15px;
 }
 
 .main .main__subtitle {
